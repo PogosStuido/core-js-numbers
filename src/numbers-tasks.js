@@ -109,7 +109,7 @@ function getAngleBetweenVectors(/* x1, y1, x2, y2 */) {
 }
 
 /**
- * Returns a last digit of a integer number.
+ * Returns a last digit of an integer number.
  * The input parameter will always be greater than or equal to zero and will be in decimal notation.
  *
  * @param {number} value
@@ -136,8 +136,8 @@ function getLastDigit(/* value */) {
  *     '37'     => 37
  * '-525.5'     => -525.5
  */
-function parseNumberFromString(/* value */) {
-  throw new Error('Not implemented');
+function parseNumberFromString(value) {
+  return Number(value);
 }
 
 /**
